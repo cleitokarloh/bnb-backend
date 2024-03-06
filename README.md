@@ -45,7 +45,7 @@ admin user stories:
 - Implement a design pattern (DDD, Repository Pattern, etc.)
     - See the explanation below.
 - Make a good and cohesive database design
-- Here I opted to make a lean database. But, if I need to grow the application I will separate purchases of movements into a purchases table, in the movements table I will be relational with "categories" of movements then I will be flexible to create many types of opportunities in my application.
+    - Here I opted to make a lean database. But, if I need to grow the application I will separate purchases of movements into a purchases table, in the movements table I will be relational with "categories" of movements then I will be flexible to create many types of opportunities in my application.
 <img src="https://github.com/cleitokarloh/bnb-backend/assets/5879585/a8b0a869-516e-4494-902a-ecb586a4b864" width="600" />
 
 ## DDD (Domain-Driven Design)
