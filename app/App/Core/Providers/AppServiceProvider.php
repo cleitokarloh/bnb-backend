@@ -24,6 +24,7 @@ class AppServiceProvider extends ServiceProvider
             BalanceRepository::class => EloquentBalanceRepository::class,
             DepositRepository::class => EloquentDepositRepository::class,
             MovementRepository::class => EloquentMovementRepository::class,
+
         ];
 
         foreach ($repositories as $abstract => $concrete) {
